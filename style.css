@@ -1,0 +1,60 @@
+.row{   
+
+    background-color:black;
+    color:white;
+    font-size:20px;
+}
+.headshot{
+    width:20%;
+   
+}
+.mid{
+    background-image: url("https://i.gifer.com/3jkQ.gif");
+    background-size: cover;
+    width:100%;
+    color:black;
+    align-items:center;
+    font-size:50px;
+    margin-top:5px;
+    margin-bottom:5px;
+}
+.aboutme{
+    border:1px solid black;  
+    background-image: url("http://www.textures4photoshop.com/tex/thumbs/computer-screen-code-glitch-animation-gif-background-free-thumb57.gif");
+}
+.row{
+ display:flex;
+ justify-content:space-around;
+}
+.headshot{
+    border-radius: 50%;
+    border-style: solid;
+    width:150px;
+}
+#first:hover{
+ background-color: #07bcb0;
+ color: inherit; 
+}
+#second:hover{
+    background-color: #07bcb0;
+    color: inherit;
+}
+#third:hover{
+    background-color: #07bcb0;
+    color: inherit;
+}
+.row a{
+    width:100px;
+    height:100px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-decoration: none;
+}
+
+.row a:visited {
+    color: #07bcb0;
+}
+h1{
+    font-family: 'Ruslan Display', cursive;
+}
