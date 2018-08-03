@@ -1,0 +1,68 @@
+body{
+    background-image: url("http://www.textures4photoshop.com/tex/thumbs/computer-screen-code-glitch-animation-gif-background-free-thumb57.gif");
+    background-size: cover;
+}
+h1{
+    color:whitesmoke;
+    text-align: center;
+    border: 8px solid white;
+}
+#screen{
+    display:flex;
+    justify-content:space-around;
+}
+.row a{
+    width:100px;
+    height:100px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-decoration: none;
+}
+.row{
+    display:flex;
+    justify-content:space-around;
+}
+.row a:visited {
+    color: #07bcb0;
+}
+h2{
+    color: white;
+    text-align: center;
+}
+.row{   
+
+    background-color:black;
+    color:white;
+    font-size:20px;
+}
+#first:hover{
+    background-color: #07bcb0;
+    color: inherit; 
+   }
+   #second:hover{
+       background-color: #07bcb0;
+       color: inherit;
+   }
+   #third:hover{
+       background-color: #07bcb0;
+       color: inherit;
+   }
+   div.background {
+    background: url(klematis.jpg) repeat;
+    border: 2px solid black;
+}
+
+div.transbox {
+    margin: 30px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.4;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+
+div.transbox p {
+    margin: 5%;
+    font-weight: bold;
+    color: #000000;
+}

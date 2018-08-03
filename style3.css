@@ -1,0 +1,41 @@
+.row a{
+    width:100px;
+    height:100px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-decoration: none;
+}
+.row{
+    display:flex;
+    justify-content:space-around;
+}
+.row a:visited {
+    color: #07bcb0;
+}
+h2{
+    color: white;
+    text-align: center;
+}
+.row{   
+
+    background-color:black;
+    color:white;
+    font-size:20px;
+}
+#first:hover{
+    background-color: #07bcb0;
+    color: inherit; 
+   }
+   #second:hover{
+       background-color: #07bcb0;
+       color: inherit;
+   }
+   #third:hover{
+       background-color: #07bcb0;
+       color: inherit;
+   }
+   body{
+       background-image: url("https://i.gifer.com/3jkQ.gif");
+       background-size: cover;
+   }
